@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+main {
+    font-family: cursive;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+
+}
+body {
+    margin: 0;
+    flex-direction: column;
+    
+
+}
+header { 
+    background: rgb(215, 243, 231);
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    justify-content: space-between;
+
+    }
+    header img{
+        width: 600px;
+        height: 100px;
+    }
+    nav {
+        display: flex;
+        background-color: rgb(179, 93, 250);
+        justify-content: flex-end;
+    
+    }
+
+    nav a {
+        padding: 15px;
+        font-size: 25px;
+        text-align: center;
+        text-decoration: none;
+    }
+    nav a:hover {
+        color: maroon;
+    }
+
+    aside {
+        background: rgba(40, 97, 204, 0.26);
+        font-weight: 600;
+     padding: 20px;
+     flex: 1;
+    }
+
+    aside img{
+        text-align: center;
+        width: 200;
+        height: 500;
+        padding: 10px;
+    }
+
+section {
+    padding: 1px;
+    background: rgb(171, 243, 181);
+   
+}
+
+.topics img:hover {
+    width: 200;
+    height: 150;
+}
+
+.contant {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 4;
+}
+.topics img {
+    width: 200;
+    height: 100 ;
+    margin: 1px;
+    align-items: center;
+}
+.topics {
+    margin: 1% auto;
+    border-style: solid;
+    flex: 0 0 100px;
+}
+
+.topics header {
+    padding: 0px;
+    background-color: blueviolet;
+}
+
+@media screen and (max-width: 760px) {
+    header {
+        background: maroon;
+    }
+    
+    
+}
